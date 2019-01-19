@@ -86,9 +86,9 @@ public class CascadeLift extends Subsystem {
 //			}
 		}
 		
-		topTalon.set(speed);
-		midTalon.set(speed);
-		bottomTalon.set(speed);
+		topTalon.set(-speed);
+		midTalon.set(-speed);
+		bottomTalon.set(-speed);
 	}
 	
 	public double getEncoderCount() {
